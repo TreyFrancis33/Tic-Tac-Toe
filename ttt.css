@@ -1,0 +1,171 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(https://img.freepik.com/premium-photo/yellow-plastic-crosses-toe-ruled-field-playing-tic-tac-toe-blue-background-concept-xo-win-challenge-educational-game-kids_164357-2505.jpg?w=2000);
+}
+
+nav {
+    background: black;
+    height: 3rem;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.nav-center {
+    width: 90vw;
+    max-width: 620px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-center button:hover {
+    color: aqua;
+}
+
+.nav-center button:active {
+    color: white;
+}
+
+h1, label {
+    margin-top: 5px;
+    text-shadow: 0px 2px 20px white;
+    color: white;
+    font-style: italic;
+}
+
+label {
+    font-size: 25px;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3,170px);
+    grid-template-rows: repeat(3,170px);
+    margin-top: 20px;
+}
+
+.grid button {
+    cursor: pointer;
+    background-color: rgba(0,0,0,.50);
+}
+
+.grid button:disabled {
+    cursor: pointer;
+    background-color: rgba(0,0,0,.50);
+    border-color: #000000;
+
+}
+
+.grid button:hover {
+    background-color: rgba(0,0,0,.75);
+}
+
+.grid button:active {
+    background-color: rgba(0,0,0,.5);
+}
+
+.TLcorner {
+    border-style: solid;
+    border-top-left-radius: 20px;
+    border-left-width: 3px;
+    border-top-width: 3px;
+}
+
+.top {
+    border-style: solid;
+    border-top-width: 3px;
+    
+}
+
+.TRcorner {
+    border-style: solid;
+    border-top-right-radius: 20px;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    
+}
+
+.left {
+    border-style: solid;
+    border-left-width: 3px;
+    
+}
+
+.center {
+    border-style: solid;
+}
+
+.right {
+    border-style: solid;
+    border-right-width: 3px;   
+}
+
+.BLcorner {
+    border-style: solid;
+    border-bottom-left-radius: 20px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.bottom {
+    border-style: solid;
+    border-bottom-width: 3px;
+
+}
+
+.BRcorner {
+    border-style: solid;
+    border-bottom-right-radius: 20px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+}
+
+.control-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.control-buttons button {
+    width: 250px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: white;
+    font-size: larger;
+    text-shadow: 0px 2px 7px #000000;
+    font-style: italic;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0px 2px 20px white;
+    box-shadow: 0px 2px 20px white;
+}
+
+.control-buttons button:hover {
+    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.control-buttons button:active {
+    background-color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bottom-nav {
+    background: black;
+    height: 6rem;
+    margin-top: 20px;
+    box-shadow: 0px 10px 20px 25px rgba(0, 0, 0, 0.8);
+}
